@@ -1,0 +1,23 @@
+$blue : #1F5EA3;
+$orange : #EC722F;
+$lightblue : #4A7ABA;
+
+body {
+  background-color: $blue;
+  h1 {
+    text-align: center;
+    color: $orange;
+    margin-bottom: 40px;
+  }
+  label {
+    font-family: oswald;
+  }
+  input{
+    font-family: oswald;
+    color: $lightblue;
+  }
+  .showGithub {
+    font-family: oswald;
+  }
+
+}

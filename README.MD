@@ -15,7 +15,7 @@ _A program made with JS to track down info from different GitHub repositories th
 * _To install, go to GitHub_
 * _Copy file path and clone onto computer._
 * _Open program, and create .env file to export GitHub API Personal Access Token._
-*_Run gulp build, followed by gulp serve._
+* _Run gulp build, followed by gulp serve._
 
 
 ## Support and contact details
