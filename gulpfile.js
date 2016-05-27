@@ -101,9 +101,9 @@ gulp.task('bowerBuild', ['bower'], function(){
 
 gulp.task('cssBuild', function(){
   return gulp.src(['scss/*.scss'])
-    .pipe(sourcemaps.init())
-    .pipe(sass())
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./build/css'))
-    .pipe(browserSync.stream());
+  .pipe(sourcemaps.init())
+  .pipe(sass())
+  .pipe(sourcemaps.write())
+  .pipe(gulp.dest('./build/css'))
+  .pipe(browserSync.stream());
 });
