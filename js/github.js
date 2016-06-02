@@ -10,7 +10,8 @@ exports.getRepos.prototype.getAllRepos = function(username, displayFunction, pag
       $('.showGithub').append("<h4>" + repo.name + "</h4>" +
                               "<div class='container'>" +
                               "<h5>Description: " + repo.description + "</h5>" +
-                              "<h5>Commits: "+  + "</h5>" +
+                              "<h5>Created: "+ repo.created_at + "</h5>" +
+                              "<h5>Updated: "+ repo.updated_at + "</h5>" +
                               "<h5>GH Pages: " + repo.has_pages + "</h5>" +
                               "</div> <br>"
                               );

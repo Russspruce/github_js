@@ -1,6 +1,6 @@
 var getRepos = require('./../js/github.js').getRepos;
 var displayRepos = function(username, profileData) {
-  $('.showGithub').text(""+username+"'s github repositories currently on display: "+profileData+".");
+  $('.showGithub').text(""+username+"'s GitHub repositories currently on display: "+profileData+".");
 }
 
 $(document).ready(function() {
