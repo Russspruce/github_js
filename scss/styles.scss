@@ -9,15 +9,31 @@ body {
     color: $orange;
     margin-bottom: 40px;
   }
-  label {
-    font-family: oswald;
-  }
-  input{
-    font-family: oswald;
-    color: $lightblue;
-  }
+  // label {
+  //   font-family: oswald;
+  // }
+  // input{
+  //   font-family: oswald;
+  //   color: $lightblue;
+  // }
   .showGithub {
     font-family: oswald;
+    background-color: white;
+    border-radius: 25px;
+    padding: 40px;
+    margin-top: 20px;
+  }
+  .gitSearch {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    label {
+      font-family: oswald;
+    }
+    input{
+      font-family: oswald;
+      color: $lightblue;
+    }
   }
 
 }
